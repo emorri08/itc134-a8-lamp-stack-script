@@ -8,7 +8,16 @@
         <link rel="stylesheet" href="css/main.css" type="text/css" />
     </head>
     <body>
-        
+        <h1>Random PHP Form -- Postback Example</h1>
+            <p class="formPost">
+                Hello, <?php echo $_POST["FirstName"]; ?>
+            </p>
+            <p class="formPost">
+                We asked you if you like movies and your response was: <?php echo $_POST["LikesMovies"]; ?>
+            </p>
+            <p class="formPost">
+                We asked you what your all-time favorite sundae topping is and your response was: <?php echo $_POST["Toppings"]; ?>
+            </p>
         <footer>
             <p>
                 <small>

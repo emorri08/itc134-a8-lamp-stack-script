@@ -30,12 +30,15 @@
                     echo '
                         <form action="form_postback.php" method="post">
                         First Name: <input type="text" name="FirstName" /><br/>
-                        Do you like movies? <input type="radio" name="LikesMovies" value="yes"> Yes <br/>
-                        Do you like movies? <input type="radio" name="LikesMovies" value="no"> No <br/>
+                        Do you like movies? <input type="radio" name="LikesMovies" value="Yes"> Yes <br/>
+                        Do you like movies? <input type="radio" name="LikesMovies" value="No"> No <br/>
+                        Do you like movies? <input type="radio" name="LikesMovies" value="Maybe"> I dunno...maybe <br/>
                         Favorite Sundae Toppings:<br />
-                        <input type="checkbox" name="Toppings[]" value="nuts"> Nuts <br/>
-                        <input type="checkbox" name="Toppings[]" value="fran\'s chocolate syrup"> Fran\'s chocolate syrup <br/>
-                        <input type="checkbox" name="Toppings[]" value="cherries">Cherries <br/>
+                        <input type="radio" name="Toppings" value="Nuts"> Nuts <br/>
+                        <input type="radio" name="Toppings" value="Fran\'s chocolate syrup"> Fran\'s chocolate syrup <br/>
+                        <input type="radio" name="Toppings" value="Cherries"> Cherries <br/>
+                        <input type="radio" name="Toppings" value="Rainbow Sprinkles"> Rainbow Sprinkles <br/>
+                        <input type="radio" name="Toppings" value="Chocolate Sprinkles"> Chocolate Sprinkles <br/>
                         <input type="submit" />
                         </form>
                     ';
