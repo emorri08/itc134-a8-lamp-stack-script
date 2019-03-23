@@ -1,0 +1,83 @@
+/* ----- main.css ----- */
+
+/* ----- import google font ----- */
+@import url('https://fonts.googleapis.com/css?family=Germania+One|Italiana|Inconsolata');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Italiana', sans-serif;
+    font-size: 16px;
+}
+
+#container {
+    margin: 20px;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Germania One', sans-serif;
+    font-size: 36px;
+    color: DarkBlue;
+    line-height: 54px;
+}
+
+p.form {
+    padding: 10px 25px;
+    margin-left: 45px;
+    font-size: 18px;
+    line-height: 27px;
+    color: black;
+}
+
+p.formPost {
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 27px;
+    color: black;
+}
+
+p.footTxt {
+    font-size: 14px;
+    font-weight: lighter;
+    font-style: italic;
+    color: DarkBlue;
+}
+
+#name,
+#movies,
+#toppings,
+#submit {
+    padding: 15px 30px;
+    font-size: 22px;
+}
+
+
+#submit input{
+    margin: 30px 0 15px 50px;
+    padding: 7px 30px;
+    font-family: 'Germania One', monospace;
+    font-size: 22px;
+    background: DarkBlue;
+    color: white;
+    border: 5px outset LightBlue;
+    border-radius: 5px;
+}
+
+input {
+    font-family: 'Inconsolata', monospace;
+}
+
+footer {
+    margin: 50px 0 10px 175px;
+}
+
+footer#postBack {
+    margin: 500px 0 10px 175px;
+}
