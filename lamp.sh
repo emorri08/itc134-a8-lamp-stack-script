@@ -12,6 +12,7 @@ sudo debconf-set-selections<<<’mysql-server mysql-server/root_password_again p
 
 sudo apt-get -y install mysql-server
 
+
 #install adminer
 sudo mkdir /usr/share/adminer
 sudo wget "http://www.adminer.org/latest.php" -O /usr/share/adminer/latest.php
